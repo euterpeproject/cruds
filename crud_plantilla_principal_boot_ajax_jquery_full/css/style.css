@@ -1,0 +1,167 @@
+/*templates/listado_contactos*/
+body{
+    background: #212121;
+}
+#containerl{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    color: white;
+    box-shadow:  0px 0px 30px white inset;
+    border: 2px solid darkblue;
+}
+
+input{
+    box-shadow: 0px 0px 15px black inset;
+}
+
+.fa-user-plus{
+    font-size: 25px;
+    width: 70px;
+}
+.fa-user-pen{
+    font-size: 15px;
+    width: 40px;
+}
+.fa-user-minus{
+    font-size: 15px;
+    width: 40px;
+}
+.page-link{
+    box-shadow: 0px 0px 15px black inset;
+}
+.btn{
+    box-shadow: 0px 0px 25px black inset;
+}
+
+/*templates/modal_agregar_contacto*/
+.contentagregar{
+    border: 2px solid green; 
+    box-shadow: 0px 0px 25px white inset;
+}
+
+.headeragregar{
+    width: 100%; 
+    border: 2px solid green; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.titleagregar{
+    color: #fff;
+}
+.alertagregar{
+    color:white; 
+    margin-bottom: 1px; 
+    margin-top: 1px; 
+    border: 2px solid green; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.footeragregar{
+    border: 2px solid green; 
+    box-shadow: 0px 0px 25px white inset;
+}
+
+/*templates/modal_editar_contacto*/
+.contenteditar{
+    border: 2px solid #1D65CD; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.headereditar{
+    width: 100%; 
+    border: 2px solid #1D65CD; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.titleeditar{
+    color: #fff;
+}
+.alerteditar{
+    color:white; 
+    margin-bottom: 1px; 
+    margin-top: 1px; 
+    border: 2px solid #1D65CD; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.footereditar{
+    border: 2px solid #1D65CD; 
+    box-shadow: 0px 0px 25px white inset;
+}
+
+/*templates/modal_eliminar_contacto*/
+.contenteliminar{
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.headereliminar{
+    width: 100%; 
+    background-color: #CF3131 !important; 
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px black inset;
+}
+.titleeliminar{
+    color: #fff;
+}
+.alerteliminar{
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    width: 95%; 
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px black inset;
+}
+.footereliminar{
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px white inset;
+}
+
+/*models/agregar_contacto y actualizar_contacto modal_error_editar validación*/
+.contenterroreditar{
+    border: 2px solid #CF3131; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.headererroreditar{
+    width: 100%; 
+    background-color: #CF3131 !important; 
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px black inset;
+}
+.titleerroreditar{
+    color: #fff;
+}
+.alerterroreditar{
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    width: 95%; 
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px black inset;
+}
+.footererroreditar{
+    border: 2px solid #E63B3B; 
+    box-shadow: 0px 0px 25px white inset;
+}
+
+/*models/agregar_contacto, models/actualizar_contacto 
+y models/eliminar_contacto modal_editar_final validación verdadera*/
+.contenteditarfinal{
+    border: 2px solid #51AB65; 
+    box-shadow: 0px 0px 25px white inset;
+}
+.headereditarfinal{
+    width: 100%; 
+    background-color: #51AB65 !important; 
+    border: 2px solid #51AB65; 
+    box-shadow: 0px 0px 25px black inset;
+}
+.titleeditarfinal{
+    color: #fff;
+}
+.alerteditarfinal{
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    width: 95%; 
+    border: 2px solid #51AB65; 
+    box-shadow: 0px 0px 25px black inset;
+}
+.footereditarfinal{
+    border: 2px solid #51AB65; 
+    box-shadow: 0px 0px 25px white inset;
+}
